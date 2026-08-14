@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+backend/.venv/
+.venv/
+env/
+venv/
+*.db
+*.sqlite3
+
+# Node / React
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.ds_store
+
+# Storage / Artifacts
+storage/accidents/*
+storage/violations/*
+storage/number_plates/*
+storage/processed_videos/*
+!storage/accidents/.gitkeep
+!storage/violations/.gitkeep
+!storage/number_plates/.gitkeep
+!storage/processed_videos/.gitkeep
+
+# Environment & Models
+.env
+*.pt
+*.onnx
